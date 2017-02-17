@@ -49,6 +49,7 @@ If the `aura_interval` is set, this is the interval in seconds at which the aura
 If the mob's entity table has an `aura_effect(self)` handler associated with it, then that handler will be called when the aura is manifested.
 
 Example:
+
 	...
 	do_custom = aura.holy_glow,
 	aura_interval = 2,
